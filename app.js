@@ -5,7 +5,7 @@ const app = express();
 const port = 3000;
 
 // Carrega os dados do arquivo JSON
-const data = JSON.parse(fs.readFileSync('Ipiranga_final.json', 'utf-8'));
+const data = JSON.parse(fs.readFileSync('Ipiranga_corrected.json', 'utf-8'));
 
 // Função para formatar o número de telefone para padronização
 function formatPhone(phone) {
